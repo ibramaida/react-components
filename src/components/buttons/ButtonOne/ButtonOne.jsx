@@ -1,7 +1,5 @@
 import React from "react";
 
-const ComponentOne = () => {
-  return <div>ComponentOne</div>;
+export const ButtonOne = () => {
+  return <button className="bg-red-600">I am button</button>;
 };
-
-export default ComponentOne;
